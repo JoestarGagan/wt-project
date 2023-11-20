@@ -27,6 +27,7 @@ MongoClient.connect(url, { useNewUrlParser: true, useUnifiedTopology: true }, (e
       console.log('Document inserted:', result.ops[0]);
     }
 
+
     client.close();
   });
 });
